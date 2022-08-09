@@ -297,7 +297,7 @@ const acquireOpenSSL = async () => {
       }
     }
 
-    await buildOpenSSLIfNecessary("1.1.1l", macOsDeploymentTarget);
+    await buildOpenSSLIfNecessary("1.1.1q", macOsDeploymentTarget);
   } catch (err) {
     console.error("Acquire failed: ", err);
     process.exit(1);
